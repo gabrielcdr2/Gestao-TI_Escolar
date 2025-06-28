@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36212.18 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestao_chromebooks", "Gestao_chromebooks\Gestao_chromebooks.csproj", "{4CDA2D36-F742-4A05-AD06-E0BD99745847}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestaoChromebooks.API", "GestaoChromebooks.API\GestaoChromebooks.API.csproj", "{F02F6BE7-81C9-4A37-A887-51E5660F364A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +15,13 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4CDA2D36-F742-4A05-AD06-E0BD99745847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CDA2D36-F742-4A05-AD06-E0BD99745847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDA2D36-F742-4A05-AD06-E0BD99745847}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{4CDA2D36-F742-4A05-AD06-E0BD99745847}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CDA2D36-F742-4A05-AD06-E0BD99745847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02F6BE7-81C9-4A37-A887-51E5660F364A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02F6BE7-81C9-4A37-A887-51E5660F364A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02F6BE7-81C9-4A37-A887-51E5660F364A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02F6BE7-81C9-4A37-A887-51E5660F364A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

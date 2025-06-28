@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gestao_chromebooks.Pages.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="White">
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="LightGreen"/>
+            <Setter Property="WidthRequest" Value="300"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="Text" Value="CONFIRMAR"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+        </Style>
+
+    </ContentPage.Resources>
+    
+    <ScrollView>
+        <Grid ColumnDefinitions="*, *">
+            <Image Source="educharge.png"
+                SemanticProperties.Description="Caixa de carregamento dos chromebooks"
+                HorizontalOptions="Center"
+                HeightRequest="500"
+                Grid.Column="0"/>
+
+            <VerticalStackLayout
+                Grid.Column="1"
+                VerticalOptions="Center"
+                Spacing="20">
+                
+                <Label Text="EduTech"
+                       HorizontalOptions="Center"
+                       TextColor="Black"
+                       FontSize="40"
+                       Margin="0,0,0,80"
+                       FontAttributes="Bold"/>
+                
+                <Label Text="Login"
+                       HorizontalOptions="Center" 
+                       TextColor="Black"/>
+                <Entry x:Name="login_box"
+                       WidthRequest="300"
+                       Placeholder="Usuário"/>
+
+                <Label Text="Senha"
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+                <Entry x:Name="password_box"
+                       WidthRequest="300"
+                       IsPassword="True"/>
+
+                <Button x:Name="login_button"/>
+
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
